@@ -1,0 +1,144 @@
+html,
+body {
+  background-color: #101010;
+  color: #ffffff;
+  font-family: "Open Sans", Helvetica;
+  font-size: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+body {
+  display: -ms-flexbox;
+  display: flex;
+}
+
+html { font-size: calc(1em + 1vw) }
+
+.cover-container {
+  color: #ffffff;
+  font-size: 1em;
+	position: relative;
+  z-index: 80;
+}
+
+h1 {
+  color: #ffffff;
+  font-family: "Alfa Slab One", Helvetica;
+  /*font-weight: 900;*/
+  letter-spacing: 0.04em;
+}
+
+.masthead {
+  margin-bottom: 2rem;
+}
+
+.masthead-brand {
+  margin-bottom: 0;
+  padding: 2rem;
+}
+
+@media (min-width: 48em) {
+  .masthead-brand {
+    float: left;
+  }
+}
+
+.cover {
+  padding: 0 1.5rem;
+}
+
+.hidden,
+.hidden img {
+  display: none;
+}
+
+#cover-image {
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+  position: absolute;
+  width: 100%;
+}
+
+.mastfoot .inner {
+  width: 100%;
+}
+.masthead,
+.mastfoot {
+  color: #fffff;
+  color: rgba(255, 255, 255, .5);
+  font-size: 0.5em;
+  letter-spacing: 2px;
+  padding: 0.2em;
+}
+
+.red {
+  color: #98002e;
+}
+.mastfoot p {
+  margin-bottom: 0.2em;
+}
+
+.foot-note {
+  background-color: rgba(255, 255, 255, .1);
+  padding: 0.11em;
+  color: #ffffff;
+  text-shadow: 1px 1px #000000;
+}
+
+.foot-note a {
+  color: #ffffff;
+  text-decoration: underline;
+}
+
+/** Slide animations **/
+
+@keyframes Lauryn {
+  from{
+    transform:scale(1);
+  }
+  to{
+    transform:scale(1.15) translateY(2.3%) translateX(-2.3%);
+  }
+}
+.lauryn {
+  animation: Lauryn 10s;
+}
+
+@keyframes Lacy {
+  from{
+    transform:scale(1);
+  }
+  to{
+    transform:scale(1.15) translateY(-2.3%) translateX(-2.3%);
+  }
+}
+.lacy {
+  animation: Lacy 10s;
+}
+
+@keyframes Lainey {
+  from{
+    transform:scale(1);
+  }
+  to{
+    transform:scale(1.15) translateY(-2.3%) translateX(2.3%);
+  }
+}
+.lainey {
+  animation: Lainey 10s;
+}
+
+@keyframes Lalia {
+  from{
+    transform:scale(1);
+  }
+  to{
+    transform:scale(1.15) translateY(-2.3%) translateX(2.3%);
+  }
+}
+.lalia {
+  animation: Lalia 10s;
+}
