@@ -50,7 +50,7 @@ provide that sequence of images to a jQuery script to display it as slideshow.
 **Fabian Dennler** - [Github](https://github.com/foxfabi/)
 
 ## License
-See the [license](LICENSE) file for details.
+See the [LICENSE](LICENSE) file for details.
 
 ## Changelog
 
