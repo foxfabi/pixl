@@ -13,7 +13,7 @@ The purpose is to improve my web development skills. I want to ...
 **Learning through experience. Learning by doing.**
 
 ## Masterplan 
-Build a web slideshow application from scratch using:
+Build a web slideshow application from scratch for my daughter using:
 
 * **HTML**
 * // TODO: [**SCSS/SASS**](http://sass-lang.com/) as a pre-processor for the **CSS** wich animate the images
@@ -23,12 +23,24 @@ Build a web slideshow application from scratch using:
 * [**CSSLint**](http://csslint.net/) to detect errors and potential problems in CSS code
 * [**NPM**](https://www.npmjs.com/) for **Node.js**  package management
 
+**Note**: I'm using the beautiful free pictures found on [Unsplash](https://unsplash.com/explore).
+
+## Workflow
+I use Gulp for the front-end development workflow, making it faster and more efficient. I automate different tasks such as:
+ * Injecting files that have to be referenced
+ * Linting code (showing warnings and errors in console window)
+ * Watching for changes in CSS, HTML and JS files
+ * Concatenating and minifying code
+ * Optimizing images 
+
 ## Architecture
 First of all the project root is NOT the webroot. The webroot is **`./build/`**.
 
-Consist of a PHP script that will scan a folder with images and
-provide that sequence of images to a jQuery script to display it as slideshow.
 
+Consist of a PHP script [**`images.php`**](./images.php) that will scan the folder **`./images/`** for JPG files and
+provide that sequence of images to a jQuery script to display it as slideshow.
+After each run, the list of images is reloaded and displayed in a random order.
+The photographer is determined on the basis of the image name.
 
 ## Installation
 
