@@ -26,25 +26,27 @@ Build a web slideshow application from scratch for my daughter using:
 **Note**: I'm using the beautiful free pictures found on [Unsplash](https://unsplash.com/explore).
 
 ## Workflow
-I use Gulp for the front-end development workflow, making it faster and more efficient. I automate different tasks such as:
+I use Gulp for the front-end development workflow, making it faster and more efficient.
+I automate different tasks such as:
  * Injecting files that have to be referenced
  * Linting code (showing warnings and errors in console window)
  * Watching for changes in CSS, HTML and JS files
  * Concatenating and minifying code
- * Optimizing images 
+ * Cropping and optimizing images 
 
 ## Architecture
 First of all the project root is NOT the webroot. The webroot is **`./build/`**.
 
-
-Consist of a PHP script [**`images.php`**](./images.php) that will scan the folder **`./images/`** for JPG files and
-provide that sequence of images to a jQuery script to display it as slideshow.
-After each run, the list of images is reloaded and displayed in a random order.
+Pixl consist of a PHP script [**`images.php`**](./source/images.php) that will scan the
+folder **`./images/`** for JPG files and provide that sequence of images in JSON format
+to a jQuery script [**`script.js`**](./source/assets/js/script.js) to display it
+in a slideshow. After each run, the list of images will be reloaded and shuffled.
 The photographer is determined on the basis of the image name.
 
 ## Installation
 
 * Download or clone the [Pixl github repository](https://github.com/foxfabi/pixl/) 
+* Run the **`npm install`** command
 * Upload the files from **`./build/`** folder to your Webserver
 
 ### Add images
