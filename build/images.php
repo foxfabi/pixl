@@ -13,7 +13,6 @@ function imageCrediting($filename)
   $credits = preg_replace('/[0-9]+/', '', $credits);
   $credits = trim(str_replace('-', ' ', $credits));
   $credits = ucwords($credits);
-#  $credits = sprintf('<i class="far fa-image"></i> <strong>%s</strong> auf <a href="//unsplash.com/" target="_blank">Unsplash</a>', $credits);
   $credits = sprintf('<i class="far fa-image"></i> <strong>%s</strong>', $credits);
   return $credits;
 }
