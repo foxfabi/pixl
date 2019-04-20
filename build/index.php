@@ -6,15 +6,17 @@
     <meta name="description" content="Lia's Tierwelt">
     <meta name="author" content="Fabian Dennler">
 
-    <link rel="apple-touch-icon" sizes="180x180" href="assets/favicon/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon/favicon-16x16.png">
-    <link rel="manifest" href="assets/favicon/site.webmanifest">
-    <link rel="mask-icon" href="assets/favicon/safari-pinned-tab.svg" color="#fdfdfd">
-    <link rel="shortcut icon" href="assets/favicon/favicon.ico">
-    <meta name="msapplication-TileColor" content="#fdfdfd">
-    <meta name="msapplication-config" content="assets/favicon/browserconfig.xml">
-    <meta name="theme-color" content="#fdfdfd">
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/favicon/apple-touch-icon.png?v=alQLBpejmp">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon/favicon-32x32.png?v=alQLBpejmp">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon/favicon-16x16.png?v=alQLBpejmp">
+    <link rel="manifest" href="assets/favicon/site.webmanifest?v=alQLBpejmp">
+    <link rel="mask-icon" href="assets/favicon/safari-pinned-tab.svg?v=alQLBpejmp" color="#1ec895">
+    <link rel="shortcut icon" href="assets/favicon/favicon.ico?v=alQLBpejmp">
+    <meta name="apple-mobile-web-app-title" content="PIXL">
+    <meta name="application-name" content="PIXL">
+    <meta name="msapplication-TileColor" content="#1ec895">
+    <meta name="msapplication-config" content="assets/favicon/browserconfig.xml?v=alQLBpejmp">
+    <meta name="theme-color" content="#1ec895">
 
     <link href="//fonts.googleapis.com/css?family=Open+Sans:300|Alfa+Slab+One" rel="stylesheet" />
 
